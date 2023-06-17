@@ -125,7 +125,7 @@ In the above example, we use three global variables: `msg.sender`, `block.number
 Below are some commonly used global variables:
 
 - `blockhash(uint blockNumber)`: (`bytes32`)         The hash of the given block - only applies to the 256 most recent block. 
-- `block.coinbase`             : (`address payable`) The address of the current block miner
+- `block.coinbase`             : (`address payable`) The address of the validator who proposed the block
 - `block.gaslimit`             : (`uint`)            The gaslimit of the current block
 - `block.number`               : (`uint`)            Current block number
 - `block.timestamp`            : (`uint`)            The timestamp of the current block, in seconds since the unix epoch
